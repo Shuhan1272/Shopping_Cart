@@ -289,6 +289,49 @@ function calculate_subtotal(operation_type,amount)
     if(operation_type=='clear') {
         sub_area.innerText = amount;
     }
+    let input = document.getElementById('promo_input').value;
+    if(crnt_subtotal && (input=='ostad10' || input=='ostad5')) {
+        promo_apply();
+    }
+}
+
+function promo_apply()
+{
+    let input = document.getElementById('promo_input').value;
+    let subtotal=parseInt(document.getElementById('subtotal').innerText);
+    let final_total_area=document.getElementById('final_total');
+    let dis_amount=document.getElementById('dis_amount');
+    let discount_amout,final_total;
+    function calculate_dis(subtotal,percentage)
+    {
+        discount_amout=subtotal/100*percentage;
+        final_total=subtotal-discount_amout;
+    }
+    if(input=='ostad10') {
+        calculate_dis(subtotal,10);
+    }
+    else if(input=='ostad5') {
+        calculate_dis(subtotal,5);
+    }
+    else {
+        if(!input) {
+            show_alert("Enter a promo code.","alert-danger");
+            final_total_area.innerText=0;
+            dis_amount.innerText=0;
+        }
+        else {
+            show_alert("Invalid promo code..","alert-danger");
+            final_total_area.innerText=0;
+            dis_amount.innerText=0;
+        }
+        
+        return ;
+    }
+    dis_amount.innerText=discount_amout;
+    final_total_area.innerText=final_total;
+
+    show_alert("Promo Code Applied.","alert-success");
+
 }
 
 function remove_cart_item(cart_item) 
@@ -349,3 +392,4 @@ function clear_cart() {
 
 
 }
+

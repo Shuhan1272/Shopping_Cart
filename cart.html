@@ -99,6 +99,16 @@
                 <div class="row d-none" id="row_sub">
                     <div class="col-md-8 mx-auto text-end p-2">
                         <p><span class="fw-bolder">Subtotal : </span> <span id="subtotal">0</span>/-</p>
+
+                        <div class="row">
+                          <div class="col-sm-4 ms-auto text-end p-2">
+                            <input type="text" class="form-control" placeholder="Promo Code" id="promo_input">
+                          <button class="btn btn-success my-2" id="promo_apply" onclick="promo_apply()">Apply</button>
+                          <p><span class="fw-bolder">Discout amount : </span> <span id="dis_amount">0</span>/-</p>
+                          <p><span class="fw-bolder">Final total : </span> <span id="final_total">0</span>/-</p>
+                          </div>
+                        </div>
+
                         <button class="btn btn-success">Checkout</button>
                         <!-- Button to trigger confirmation -->
                         <button class="btn btn-danger" onclick="clear_cart()">Clear cart</button>
