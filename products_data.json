@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "IPhone 16",
+        "desc": "6.1 OLED, A18 chip, dual 48MP cameras, iOS 18, long battery, sleek design.",
+        "price": 150000,
+        "img_url": "./images/products/iphone16.png"
+    },
+    {
+        "id": 2,
+        "title": "IPhone 16 Pro Max",
+        "desc": "6.9 Super Retina, A18 Pro, 48MP triple camera, AI features, titanium build.",
+        "price": 180000,
+        "img_url": "./images/products/iphone16_pro_max.png"
+    },
+    {
+        "id": 3,
+        "title": "Pixel 9 Pro",
+        "desc": "6.7 OLED, Tensor G4, 50MP AI camera, Android 15, top-tier Google AI features.",
+        "price": 140000,
+        "img_url": "./images/products/pixel9pro.png"
+    },
+    {
+        "id": 4,
+        "title": "Samsung S25 Ultra",
+        "desc": "6.8 AMOLED, Snapdragon 8 Gen 4, 200MP quad camera, S Pen, powerhouse.",
+        "price": 190000,
+        "img_url": "./images/products/sams25.png"
+    },
+    {
+        "id": 5,
+        "title": "Samsung Galaxy A55",
+        "desc": "6.6-inch Super AMOLED, Exynos 1480, 50MP triple camera, 5000mAh battery.",
+        "price": 70000,
+        "img_url": "./images/products/galaxya55.png"
+    },
+    {
+        "id": 6,
+        "title": "Google Pixel 9 Pro Fold",
+        "desc": "8-inch foldable OLED, Tensor G4, 16GB RAM, triple-camera system, Android 15.",
+        "price": 220000,
+        "img_url": "./images/products/google9profold.png"
+    },
+    {
+        "id": 7,
+        "title": "iPhone 13",
+        "desc": "6.1-inch Super Retina XDR, A15 Bionic, dual 12MP cameras, iOS 15, 5G capable.",
+        "price": 100000,
+        "img_url": "./images/products/iphone13.jpg"
+    },
+    {
+        "id": 8,
+        "title": "iPhone 14",
+        "desc": "6.1-inch Super Retina XDR, A16 Bionic, improved dual 12MP cameras, iOS 16, 5G.",
+        "price": 120000,
+        "img_url": "./images/products/iphone14.png"
+    }
+]

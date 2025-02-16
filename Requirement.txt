@@ -1,0 +1,60 @@
+মডিউল ১৫ এর এসাইনমেন্ট
+Shopping Cart
+
+Objective:
+
+Your task is to create a simple Shopping Cart project using HTML, CSS & JavaScript.
+
+Requirements:
+
+i) User Interface (UI)
+
+1. Product List: Display a grid or list of products with details such as:
+
+• Product Image
+
+• Product Name
+
+• Description
+
+• Price
+
+• "Add to Cart" button
+
+2. Checkout Interface
+
+ii) Functional Requirements
+
+1. Product Display: Fetch products dynamically (using a local JSON file or an API) & Display
+
+products in UI with proper styling. (DONE)
+
+2. Add to Cart: Allow users to add items to the cart by clicking an "Add to Cart" button (DONE) &
+
+update the cart count dynamically. (DONE)
+
+3. View Cart: Show items added to the cart with details. (DONE)
+
+4. Update Quantity: Allow users to change the quantity of items in the cart. (DONE)
+
+5. Clear Cart: Option to empty the cart completely.(DONE)
+
+Calculate Total: Automatically update the total price as items are added or their quantities
+
+are updated. (DONE) Responsive Design: Ensure the cart and product display adapt to different
+
+screen sizes. (DONE)
+
+6. Checkout Process: Display a summary of the cart items and total cost.(DONE)
+
+
+Mandatory Requirements:
+
+• Separate JS logic for products, cart operations, and UI updates. (DONE)
+
+• Error handling (e.g., prevent adding negative quantities). (DONE)
+
+
+Submission Guideline: Must submit the Live site URL otherwise your assignment marks will be 0.
+
+You may deploy your site on GitHub or Netlify or any others platform (DONE)
